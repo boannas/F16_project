@@ -441,4 +441,4 @@ Summarize why Out doesn't look like validate graph ==== Aerodynamics !!!
 - **Napat Aiamwiratchai**
 - **Tadtawan Chaloempornmongkol**
 - **Asama Wankra**
-- **Aittikit**
+- **Aittikit Kitcharoennon**
