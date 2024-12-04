@@ -98,24 +98,9 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### Kinematic Equation
-$$
-\begin{bmatrix}
-\dot{\phi} \\
-\dot{\theta} \\
-\dot{\psi}
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & \sin(\phi)\tan(\theta) & \cos(\phi)\tan(\theta) \\
-0 & \cos(\phi) & -\sin(\phi) \\
-0 & \frac{\sin(\phi)}{\cos(\theta)} & \frac{\cos(\phi)}{\cos(\theta)}
-\end{bmatrix}
-\begin{bmatrix}
-P \\
-Q \\
-R
-\end{bmatrix}
-$$
+[ ϕ̇ ]   =   [ 1      sin(ϕ)tan(θ)    cos(ϕ)tan(θ) ] [ P ]
+[ θ̇ ]       [ 0          cos(ϕ)          -sin(ϕ)  ] [ Q ]
+[ ψ̇ ]       [ 0   sin(ϕ)/cos(θ)    cos(ϕ)/cos(θ)  ] [ R ]
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
