@@ -171,12 +171,12 @@ $$
 \end{bmatrix}
 \begin{bmatrix}
 1 & 0 & 0 \\\
-0 & \cos(\phi) & -\sin(\phi) \\
+0 & \cos(\phi) & -\sin(\phi) \\\
 0 & \sin(\phi) & \cos(\phi)
 \end{bmatrix}
 \begin{bmatrix}
-U \\
-V \\
+U \\\
+V \\\
 W
 \end{bmatrix}
 $$
