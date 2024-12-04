@@ -98,9 +98,9 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### Kinematic Equation
-[ ϕ̇ ]   =   [ 1      sin(ϕ)tan(θ)    cos(ϕ)tan(θ) ] [ P ]
-[ θ̇ ]       [ 0          cos(ϕ)          -sin(ϕ)  ] [ Q ]
-[ ψ̇ ]       [ 0   sin(ϕ)/cos(θ)    cos(ϕ)/cos(θ)  ] [ R ]
+⎡ ϕ̇ ⎤ = ⎡ 1 sin(ϕ)tan(θ) cos(ϕ)tan(θ) ⎤ ⎡ P ⎤ 
+⎢ θ̇ ⎥ ⎢ 0 cos(ϕ) -sin(ϕ) ⎥ ⎢ Q ⎥ 
+⎣ ψ̇ ⎦ ⎣ 0 sin(ϕ)/cos(θ) cos(ϕ)/cos(θ) ⎦ ⎣ R ⎦
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
@@ -123,8 +123,8 @@ $$
 #### Navigation Equation
 $$
 \begin{bmatrix}
-\dot{x}_e \\
-\dot{y}_e \\
+\dot{x}_e \\\
+\dot{y}_e \\\
 -\dot{h}
 \end{bmatrix}
 =
