@@ -301,6 +301,12 @@ where:
 
 - **𝐶ₙ**: Non-dimensional normal force coefficient, \(𝐶ₙ = -𝐶𝓏\)
 
+##### **Coefficient graph from** `Stevens, B. L., Lewis, F. L., & Johnson, E. N. (2016). Aircraft Control and Simulation: Dynamics, Controls Design, and Autonomous Systems (3rd ed.). John Wiley & Sons.`
+![C_x](image/cx.png)
+![C_z](image/cz.png)
+![C_l](image/cl.png)
+![C_m](image/cm.png)
+![C_n](image/cn.png)
 
 ## Conclusion
 
