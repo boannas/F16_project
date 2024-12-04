@@ -13,7 +13,7 @@ This project simulates the dynamics of a F16 Fighting Falcon
 
 
 ## Overview
-![Image of system diagram](image\system_diagram.png)
+![Image of system diagram](image/system_diagram.png)
 ### Feature
 - **บินได้มึงก็ใส่มา :** ก็บอกว่าบินได้ไงไอสัสอ่านทำเหี้ยไรอีก
 - **บินได้มึงก็ใส่มา :** ก็บอกว่าบินได้ไงไอสัสอ่านทำเหี้ยไรอีก
@@ -37,7 +37,7 @@ cd F16_project
 
 
 ## Methodology
-![Image of system diagram](image\control_surface.png)
+![Image of system diagram](image/control_surface.png)
 
 | Parameter    | Description                                          | Value        | Unit       |
 |--------------|------------------------------------------------------|--------------|------------|
