@@ -2,8 +2,6 @@
 This project simulates the dynamics of a F16 Fighting Falcon
 #### This project is a part of FRA333 Robot Kinematics @ Institute of Field Robotics, King Mongkut’s University of Technology Thonburi
 
-https://github.com/boannas/F16_project/image/Test1.mp4
-
 ## Table of contents
 1. [Overview](#overview)
 2. [Getting started](#getting-started)
@@ -18,8 +16,7 @@ https://github.com/boannas/F16_project/image/Test1.mp4
 ![Image of system diagram](image/system_diagram.png)
 
 ### Feature
-- **บินได้มึงก็ใส่มา :** ก็บอกว่าบินได้ไงไอสัสอ่านทำเหี้ยไรอีก
-- **บินได้มึงก็ใส่มา :** ก็บอกว่าบินได้ไงไอสัสอ่านทำเหี้ยไรอีก
+- **Can fly :** and go away
 
 ## Getting started
 ### Installation
@@ -30,10 +27,11 @@ cd F16_project
 ```
 
 ## User guide
-- `up` - K
-- `down` - K
-- `left` - K
-- `right` - K
+You can config parameter of F16.
+- `Thrust` - For control X axis of airplane. 
+- `Rudder` - For control yaw axis of airplane. 
+- `Elevator` - For control pitch axis of airplane. 
+- `Ailerons` - For control row axis of airplane. 
 
 ## Methodology
 **Control Surfaces**
@@ -388,7 +386,6 @@ And validate web is dead!!!!!!!!!.
 
 
 ## References
-- [NASA](www.pornhub.com)
 
 
 ## Collabulator
