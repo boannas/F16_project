@@ -102,13 +102,13 @@ cd F16_project
 | ψ = 0 rad/s              | ψ̇ = 0.052 rad/s                              |
 | 𝑥₍c.g.₎ = 0.3            | 𝛼, 𝛽, ϕ, θ, δₜₕ, δₑ, δₐ, and δᵣ          |
 
-- **δₜₕ**: Throttle angle (องศา)
+- **δₜₕ**: Throttle angle (Degree)
 
-- **δₑ**: Elevator angle (องศา)
+- **δₑ**: Elevator angle (Degree)
 
-- **δₐ**: Aileron angle (องศา)
+- **δₐ**: Aileron angle (Degree)
 
-- **δᵣ**: Rudder angle (องศา)
+- **δᵣ**: Rudder angle (Degree)
 
 | Constant     | Description                    | Value     | Unit          |
 |--------------|--------------------------------|-----------|---------------|
