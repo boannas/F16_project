@@ -1,7 +1,8 @@
-# F16_project
+# F16 Fighting Falcon SIMULATION
 This project simulates the dynamics of a F16 Fighting Falcon
 #### This project is a part of FRA333 Robot Kinematics @ Institute of Field Robotics, King Mongkut’s University of Technology Thonburi
-เดี๋ยวใส่วิดีโอตรงนี้นะจ้ะ
+
+https://github.com/boannas/F16_project/image/Test1.mp4
 
 ## Table of contents
 1. [Overview](#overview)
@@ -13,24 +14,14 @@ This project simulates the dynamics of a F16 Fighting Falcon
 7. [References](#references)
 
 
-
-
-
-
-
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
+
 ### Feature
 - **บินได้มึงก็ใส่มา :** ก็บอกว่าบินได้ไงไอสัสอ่านทำเหี้ยไรอีก
 - **บินได้มึงก็ใส่มา :** ก็บอกว่าบินได้ไงไอสัสอ่านทำเหี้ยไรอีก
 
-
-
-
 ## Getting started
-### Prerequisites
-Ensure you have the following dependencies installed:
-- `c`
 ### Installation
 Clone the repository and install the dependencies:
 ```bash
@@ -43,13 +34,6 @@ cd F16_project
 - `down` - K
 - `left` - K
 - `right` - K
-
-
-
-
-
-
-
 
 ## Methodology
 **Control Surfaces**
@@ -399,6 +383,8 @@ This section outlines the stability validation process for the F-16 under specif
 ## Conclusion
 
 Summarize why Out doesn't look like validate graph ==== Aerodynamics !!!
+
+And validate web is dead!!!!!!!!!.
 
 
 ## References
