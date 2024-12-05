@@ -152,34 +152,7 @@ $$
 $$
 
 #### Navigation Equation
-$$
-\begin{bmatrix}
-\dot{x}_e \\\
-\dot{y}_e \\\
--\dot{h}
-\end{bmatrix}
-=
-\begin{bmatrix}
-\cos(\psi) & -\sin(\psi) & 0 \\\
-\sin(\psi) & \cos(\psi) & 0 \\\
-0 & 0 & 1
-\end{bmatrix}
-\begin{bmatrix}
-\cos(\theta) & 0 & \sin(\theta) \\\
-0 & 1 & 0 \\
--\sin(\theta) & 0 & \cos(\theta)
-\end{bmatrix}
-\begin{bmatrix}
-1 & 0 & 0 \\\
-0 & \cos(\phi) & -\sin(\phi) \\\
-0 & \sin(\phi) & \cos(\phi)
-\end{bmatrix}
-\begin{bmatrix}
-U \\\
-V \\\
-W
-\end{bmatrix}
-$$
+![Image of navigation equation](image/Navigation%20Equation.png)
 Where:
 - **ẋₑ**: The rate of change of position along the X-axis of the aircraft relative to the Earth frame.
 - **ẏₑ**: The rate of change of position along the Y-axis of the aircraft relative to the Earth frame.
@@ -188,10 +161,9 @@ Where:
 The transformation of the rotation matrix from the body frame of the F-16 aircraft to the Earth frame can be expressed using roll, pitch, and yaw (Rz Ry Rx).
 
 #### 2. Kinematic Equation
-![Kinematics](image/f16_kinematics.png)
-[ ϕ̇ ]   =   [ 1      sin(ϕ)tan(θ)    cos(ϕ)tan(θ) ] [ P ]
-[ θ̇ ]       [ 0          cos(ϕ)          -sin(ϕ)  ] [ Q ]
-[ ψ̇ ]       [ 0   sin(ϕ)/cos(θ)    cos(ϕ)/cos(θ)  ] [ R ]
+![Image of Kinematics](image/f16_kinematics.png)
+![Image of Kinematic Equation](image/Kinematic%20Equation.png)
+
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
