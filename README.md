@@ -1,5 +1,6 @@
 # F16 Fighting Falcon SIMULATION
-This project simulates the dynamics of a F16 Fighting Falcon
+This project aims to visualize a F16 Fighting Falcon motion by adjusting the parameter of F16 Fighting Falcon (Thrust,Rudder,Elevator,Ailerons) in Unity and Matlab.
+
 #### This project is a part of FRA333 Robot Kinematics @ Institute of Field Robotics, King Mongkut’s University of Technology Thonburi
 
 ## Table of contents
@@ -43,10 +44,10 @@ F-16.exe
 
 ## User guide
 You can config parameter of F16.
-- `Thrust` - For control X axis of airplane. 
-- `Rudder` - For control yaw axis of airplane. 
-- `Elevator` - For control pitch axis of airplane. 
 - `Ailerons` - For control row axis of airplane. 
+- `Elevator` - For control pitch axis of airplane. 
+- `Rudder` - For control yaw axis of airplane. 
+- `Thrust` - For control X axis of airplane. 
 
 ## Methodology
 **Control Surfaces**
