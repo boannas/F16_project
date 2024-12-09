@@ -45,6 +45,7 @@ cd F16_project/Simulation
 ```bash
 F-16.exe
 ```
+![Image of simulation](image/simulation.png)
 
 ## User guide
 You can configure the parameters of the F-16.
