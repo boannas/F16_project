@@ -107,7 +107,7 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### Kinematic Equation
-![Image of kinematic equation](image/Kinematic%20equation.png)
+![Image of kinematic equation](image/Kinematic_equation.png)
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
