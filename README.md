@@ -263,6 +263,9 @@ where:
 ## Validation 
 This section outlines the stability validation process for the F-16 under specific control surface configurations. The tests assess the aircraft's stability when all control surfaces are neutral and when each orientation is tested independently along each axis.
 
+### 1. Our simulation
+![Validation1](image/our_validate1.png)
+
 ## 1. Stability with Neutral Control Surfaces
 - **Objective**: Verify the aircraft's inherent stability when all control surfaces are set to zero.
 - **Test Conditions**:
@@ -317,12 +320,11 @@ This section outlines the stability validation process for the F-16 under specif
   - The aircraft should "Tee lung ka" when apply Throttle, Aileron, Elevator, Rudder.
   - Upon returning δₐ, δₑ, δᵣ to 0°, the aircraft should stabilize without significant oscillations.
 
+
+
 ## Conclusion
 
-Summarize why Out doesn't look like validate graph ==== Aerodynamics !!!
-
-And validate web is dead!!!!!!!!!.
-
+Our F16 simulation is ...
 
 ## Acknowledgements
 This project is part of the coursework for FRA333 Robot Kinematics at the Institute of Field Robotics, King Mongkut’s University of Technology Thonburi. Special thanks to the course instructors for their guidance and support.
