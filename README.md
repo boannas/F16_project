@@ -8,6 +8,10 @@ This project aims to visualize the motion of an F-16 Fighting Falcon by adjustin
 2. [Getting started](#getting-started)
 3. [User guide](#user-guide)
 4. [Methodology](#methodology)
+    - [F-16 Parameters](#f-16-parameters)
+    - [F-16-variables](#f-16-variables)
+    - [Constant Variables](#constant-variables)
+    - [F-16 Fixed and Free States](#f-16-fixed-and-free-states)
     - [Navigation Equation](#1-navigation-equation)
     - [Kinematic Equation](#2-kinematic-equation)
     - [Force Equation](#3-force-equation)
@@ -91,6 +95,7 @@ You can configure the parameters of the F-16.
 
 
 ### **F-16 Fixed and Free States**
+
 | Fixed Quantities          | Free States/Controls                            |
 |---------------------------|------------------------------------------------|
 | 𝑉ₜ = 500 ft/s            | 𝑥ₑ = 0 ft                                    |
@@ -100,6 +105,8 @@ You can configure the parameters of the F-16.
 | ψ = 0 rad/s              | ψ̇ = 0.052 rad/s                              |
 | 𝑥₍c.g.₎ = 0.3            | 𝛼, 𝛽, ϕ, θ, δₜₕ, δₑ, δₐ, and δᵣ          |
 
+Note : Fixed quantities are in an inertial state and can be adjusted.
+
 - **δₜₕ**: Throttle angle (Minimum 0.0°, Maximum 1.0°) 
 
 - **δₑ**: Elevator angle (Minimum -25.0°, Maximum 25.0°)
@@ -107,11 +114,6 @@ You can configure the parameters of the F-16.
 - **δₐ**: Aileron angle (Minimum -21.5°, Maximum 21.5°)
 
 - **δᵣ**: Rudder angle (Minimum -30.0°, Maximum 30.0°)
-
-| Constant     | Description                    | Value     | Unit          |
-|--------------|--------------------------------|-----------|---------------|
-| 𝑔           | Gravitational acceleration     | 9.81      | m/s²          |
-| 𝜌           | Air density (at sea level)     | 1.225     | kg/m³         |
 
 
 #### 1. Navigation Equation
@@ -132,7 +134,7 @@ Where:
   <img src="image/Kinematic_equation.png" alt="Image of Kinematic Equation">
 </p>
 
-This equation describes the relationship between angular velocities in the body-fixed frame (P, Q, R) and the rates of change of the Euler angles (ϕ, θ, ψ).
+This equation describes the relationship between angular velocities in the body-fixed frame (P, Q, R) and the rates of change of the Euler angles (ϕ, θ, ψ). **It follows the left-hand rule.**
 
 
 Where:
@@ -185,9 +187,9 @@ where:
 This set of equations appears to describe the translational and angular dynamics of a body in three dimensions.
 
 where:
-- **α**: Angle of attack (alpha) (องศา)
+- **α**: Angle of attack (alpha) (degree)
 
-- **β**: Sideslip angle (beta) (องศา)
+- **β**: Sideslip angle (beta) (degree)
 
 - **𝐹ₓ**: Force in the x-axis direction
 
