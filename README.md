@@ -24,7 +24,7 @@ This project simulates the dynamics of a F16 Fighting Falcon
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
 
-https://github.com/boannas/F16_project/blob/main/F-16%202567-12-06%2003-18-53.mp4
+![Video](https://github.com/<username>/<repository>/assets/<unique-id>/<video-name>.mp4)
 
 ### Feature
 - **Simulation :** Can simulates dynamics of F16 Fighting Falcon by asjust control surface.
