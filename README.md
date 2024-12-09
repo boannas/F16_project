@@ -147,36 +147,12 @@ Where:
 
 
 #### 3. Force Equation
-$$
-\dot{U} = RV - QW - g\sin(\theta) + \frac{F_x + F_{th}}{m}
-$$
-
-$$
-\dot{V} = PW - RU + g\cos(\theta)\sin(\phi) + \frac{F_y}{m}
-$$
-
-$$
-\dot{W} = QU - PV + g\cos(\theta)\cos(\phi) + \frac{F_z}{m}
-$$
+![Image of Force Equation](image/Force%20equation.png)
 
 
 
 #### 4. Moment Equation
-$$
-\Gamma = I_{xx}I_{zz} - I_{xz}^2
-$$
-
-$$
-\Gamma \dot{P} = I_{zz}L + I_{xz}N - \left[I_{zz}(I_{zz} - I_{yy}) + I_{xz}^2\right]QR + I_{xz}(I_{xx} - I_{yy} + I_{zz})PQ
-$$
-
-$$
-I_{yy} \dot{Q} = M + (I_{zz} - I_{xx})PR - I_{xz}(P^2 - R^2)
-$$
-
-$$
-\Gamma \dot{R} = I_{xx}N + I_{xz}L - \left[I_{xx}(I_{xx} - I_{yy}) + I_{xz}^2\right]PQ + I_{xz}(I_{xx} - I_{yy} + I_{zz})QR
-$$
+![Image of Moment Equation](image/Moment%20equation.png)
 where:
 - **𝐼ₓₓ**: Moment of inertia around the X-axis (12874.847366 kg·m²)
 - **𝐼ᵧᵧ**: Moment of inertia around the Y-axis (75673.623725 kg·m²)
@@ -186,29 +162,7 @@ where:
 - **Γ**: Moments of inertia in the system (kg²·m⁴)
 
 #### 5. Aerodynamics
-$$
-F_x = \bar{q}S C_x(\alpha, \beta, \delta_e, \delta_a, \delta_r, \text{MACH})
-$$
-
-$$
-F_y = \bar{q}S C_y(\alpha, \beta, \delta_e, \delta_a, \delta_r, \text{MACH})
-$$
-
-$$
-F_z = \bar{q}S C_z(\alpha, \beta, \delta_e, \delta_a, \delta_r, \text{MACH})
-$$
-
-$$
-L = \bar{q}BS C_l(\alpha, \beta, \delta_e, \delta_a, \delta_r, \text{MACH})
-$$
-
-$$
-M = \bar{q}cS C_m(\alpha, \beta, \delta_e, \delta_a, \delta_r, \text{MACH})
-$$
-
-$$
-N = \bar{q}BS C_n(\alpha, \beta, \delta_e, \delta_a, \delta_r, \text{MACH})
-$$
+![Image of Aerodynamics](image/Aerodynamics.png)
 where:
 - **q̄**: Dynamic pressure (Pa)
 - **S**: Wing reference area (m²)
@@ -216,17 +170,8 @@ where:
 - **c̄**: Mean aerodynamic chord (m)
 
 #### 6. Force equation new state
-$$
-V_Ṫ = \frac{1}{m} \left( F_x \cos\alpha \cos\beta + F_y \sin\beta + F_z \cos\beta \sin\alpha \right)
-$$
+![Image of Force equation new state equation](image/Force%20equation%20new%20state.png)
 
-$$
-\dot{\beta} = \frac{1}{mV_T} \left( -F_x \cos\alpha \sin\beta + F_y \cos\beta - F_z \sin\alpha \sin\beta \right) + \frac{1}{V_T} \left( P \sin\alpha - R \cos\alpha \right)
-$$
-
-$$
-\dot{\alpha} = \frac{1}{mV_T} \left( -F_x \sin\alpha + \frac{F_z \cos\alpha}{\cos\beta} \right) - P \cos\alpha \tan\beta + Q - R \sin\alpha \tan\beta
-$$
 where:
 - **α**: Angle of attack (alpha) (องศา)
 
@@ -273,32 +218,7 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### 9. Coefficient 
-$$
-C_X = C_{X_0}(\alpha, \delta_e) + \left(\frac{q c}{2V_T}\right) C_{X_q}(\alpha)
-$$
-
-$$
-C_Y = 0.02\beta + 0.021 \left(\frac{\delta_a}{20}\right) + 0.086 \left(\frac{\delta_r}{30}\right) 
-+ \left(\frac{b}{2V_T}\right)\left(C_{Y_p}(\alpha)p + C_{Y_r}(\alpha)r\right)
-$$
-
-$$
-C_Z = C_{Z_0}(\alpha) \left[1 - \left(\frac{\beta \pi}{180}\right)^2\right] - 0.19\left(\frac{\delta_e}{25}\right) + \left(\frac{q c}{2V_T}\right) C_{Z_q}(\alpha)
-$$
-
-$$
-C_l = C_{l_0}(\alpha, \beta) + \Delta C_{l_{\delta_a=20}} \left(\frac{\delta_a}{20}\right) + \Delta C_{l_{\delta_r=30}} \left(\frac{\delta_r}{30}\right)
-+ \left(\frac{b}{2V_T}\right)\left(C_{l_p}(\alpha)p + C_{l_r}(\alpha)r\right)
-$$
-
-$$
-C_m = C_{m_0}(\alpha, \delta_e) + \left(\frac{q c}{2V_T}\right) C_{m_q}(\alpha) + (x_{c.g.,ref} - x_{c.g.})C_Z
-$$
-
-$$
-C_n = C_{n_0}(\alpha, \beta) + \Delta C_{n_{\delta_a=20}} \left(\frac{\delta_a}{20}\right) + \Delta C_{n_{\delta_r=30}} \left(\frac{\delta_r}{30}\right)
-+ \left(\frac{b}{2V_T}\right)\left(C_{n_p}(\alpha)p + C_{n_r}(\alpha)r\right) - \frac{\bar{C}_D}{b}(x_{c.g.,ref} - x_{c.g.})C_Y
-$$
+![Image of Coefficient equation](image/Coefficient.png)
 where:
 - **𝐶ₓ**: Non-dimensional \(x\)-body-axis force coefficient
 
