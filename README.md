@@ -107,7 +107,7 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### Kinematic Equation
-![Image of kinematic equation](image/Kinematic%20Equation.png)
+![Image of kinematic equation](image/Kinematic%20equation.png)
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
@@ -115,20 +115,10 @@ Where:
 
 
 #### Force Equation
-$$
-\dot{U} = RV - QW - g\sin(\theta) + \frac{F_x + F_{th}}{m}
-$$
-
-$$
-\dot{V} = PW - RU + g\cos(\theta)\sin(\phi) + \frac{F_y}{m}
-$$
-
-$$
-\dot{W} = QU - PV + g\cos(\theta)\cos(\phi) + \frac{F_z}{m}
-$$
+![Image of Force equation](image/Force%20equation.png)
 
 #### Navigation Equation
-![Image of navigation equation](image/Navigation%20Equation.png)
+![Image of navigation equation](image/Navigation%20equation.png)
 Where:
 - **ẋₑ**: The rate of change of position along the X-axis of the aircraft relative to the Earth frame.
 - **ẏₑ**: The rate of change of position along the Y-axis of the aircraft relative to the Earth frame.
