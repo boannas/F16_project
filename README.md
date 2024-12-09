@@ -115,7 +115,7 @@ Where:
 
 
 #### Force Equation
-![Image of Force equation](image/Force%20equation.png)
+![Image of Force equation](image/Force_equation.png)
 
 #### Navigation Equation
 ![Image of navigation equation](image/Navigation_equation.png)
@@ -128,7 +128,7 @@ The transformation of the rotation matrix from the body frame of the F-16 aircra
 
 #### 2. Kinematic Equation
 ![Image of Kinematics](image/f16_kinematics.png)
-![Image of Kinematic Equation](image/Kinematic%20Equation.png)
+![Image of Kinematic Equation](image/Kinematic_equation.png)
 
 
 Where:
@@ -137,12 +137,12 @@ Where:
 
 
 #### 3. Force Equation
-![Image of Force Equation](image/Force%20equation.png)
+![Image of Force Equation](image/Force_equation.png)
 
 
 
 #### 4. Moment Equation
-![Image of Moment Equation](image/Moment%20equation.png)
+![Image of Moment Equation](image/Moment_equation.png)
 where:
 - **𝐼ₓₓ**: Moment of inertia around the X-axis (12874.847366 kg·m²)
 - **𝐼ᵧᵧ**: Moment of inertia around the Y-axis (75673.623725 kg·m²)
@@ -160,7 +160,7 @@ where:
 - **c̄**: Mean aerodynamic chord (m)
 
 #### 6. Force equation new state
-![Image of Force equation new state equation](image/Force%20equation%20new%20state.png)
+![Image of Force equation new state equation](image/Force_equation_new_state.png)
 
 where:
 - **α**: Angle of attack (alpha) (องศา)
@@ -200,9 +200,9 @@ W = V_T \sin\alpha \cos\beta
 $$
 
 #### 8. Dynamic Pressure 
-$$
+
 𝑞̄ = ½ ρ 𝑉ₜ²
-$$
+
 where:
 - ρ is air density,
 - 𝑉ₜ is total velocity.
