@@ -16,7 +16,7 @@ This project simulates the dynamics of a F16 Fighting Falcon
 ![Image of system diagram](image/system_diagram.png)
 
 ### Feature
-- **Can fly :** and go away
+- **Simulation :** Can simulates dynamics of F16 Fighting Falcon by asjust control surface.
 
 ## Getting started
 Can use only on window OS.
@@ -112,7 +112,10 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### Kinematic Equation
-![Image of kinematic equation](image/Kinematic_equation.png)
+<p align="center">
+  <img src="image/Kinematic_equation.png" alt="Image of Kinematic Equation">
+</p>
+
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
@@ -120,10 +123,15 @@ Where:
 
 
 #### Force Equation
-![Image of Force equation](image/Force_equation.png)
+<p align="center">
+  <img src="image/Force_equation.png" alt="Image of Force equation">
+</p>
 
 #### Navigation Equation
-![Image of navigation equation](image/Navigation_equation.png)
+<p align="center">
+  <img src="image/Navigation_equation.png" alt="Image of Navigation Equation">
+</p>
+
 Where:
 - **ẋₑ**: The rate of change of position along the X-axis of the aircraft relative to the Earth frame.
 - **ẏₑ**: The rate of change of position along the Y-axis of the aircraft relative to the Earth frame.
@@ -132,8 +140,10 @@ Where:
 The transformation of the rotation matrix from the body frame of the F-16 aircraft to the Earth frame can be expressed using roll, pitch, and yaw (Rz Ry Rx).
 
 #### 2. Kinematic Equation
-![Image of Kinematics](image/f16_kinematics.png)
-![Image of Kinematic Equation](image/Kinematic_equation.png)
+<p align="center">
+  <img src="image/f16_dynamics.png" alt="Image of f16_dynamics">
+  <img src="image/Kinematic_equation.png" alt="Image of Kinematic Equation">
+</p>
 
 
 Where:
@@ -142,12 +152,17 @@ Where:
 
 
 #### 3. Force Equation
-![Image of Force Equation](image/Force_equation.png)
+<p align="center">
+  <img src="image/Force_equation.png" alt="Image of Force equation">
+</p>
 
 
 
 #### 4. Moment Equation
-![Image of Moment Equation](image/Moment_equation.png)
+<p align="center">
+  <img src="image/Moment_equation.png" alt="Image of Moment Equation">
+</p>
+
 where:
 - **𝐼ₓₓ**: Moment of inertia around the X-axis (12874.847366 kg·m²)
 - **𝐼ᵧᵧ**: Moment of inertia around the Y-axis (75673.623725 kg·m²)
@@ -157,7 +172,9 @@ where:
 - **Γ**: Moments of inertia in the system (kg²·m⁴)
 
 #### 5. Aerodynamics
-![Image of Aerodynamics](image/Aerodynamics.png)
+<p align="center">
+  <img src="image/Aerodynamics.png" alt="Image of Aerodynamics equation">
+</p>
 where:
 - **q̄**: Dynamic pressure (Pa)
 - **S**: Wing reference area (m²)
@@ -165,7 +182,9 @@ where:
 - **c̄**: Mean aerodynamic chord (m)
 
 #### 6. Force equation new state
-![Image of Force equation new state equation](image/Force_equation_new_state.png)
+<p align="center">
+  <img src="image/Force_equation_new_state.png" alt="Image of Force equation new state equation">
+</p>
 
 where:
 - **α**: Angle of attack (alpha) (องศา)
@@ -213,7 +232,9 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### 9. Coefficient 
-![Image of Coefficient equation](image/Coefficient.png)
+<p align="center">
+  <img src="image/Coefficient.png" alt="Image of Coefficient">
+</p>
 where:
 - **𝐶ₓ**: Non-dimensional \(x\)-body-axis force coefficient
 
