@@ -263,71 +263,37 @@ where:
 ![C_n](image/cn.png)
 
 ## Validation 
-This section outlines the stability validation process for the F-16 under specific control surface configurations. The tests assess the aircraft's stability when all control surfaces are neutral and when each orientation is tested independently along each axis.
-
-### 1. Our simulation
-![Validation1](image/our_validate1.png)
-
-## 1. Stability with Neutral Control Surfaces
-- **Objective**: Verify the aircraft's inherent stability when all control surfaces are set to zero.
-- **Test Conditions**:
-  - **δₜₕ (Throttle)**: 0.5 (50% thrust for steady flight)
-  - **δₐ (Aileron)**: 0°
-  - **δₑ (Elevator)**: 0°
-  - **δᵣ (Rudder)**: 0°
-- **Expected Outcome**:
-  - The aircraft should maintain steady, level flight without external disturbances.
-  - Minimal oscillations or divergence from the current orientation.
-
-## 2. Stability Test: Orientation Along Each Axis
-- **Objective**: Assess the stability response when control inputs are applied along each axis individually.
-
-### 2.1 Roll Stability (Aileron Input)
-- **Test Conditions**:
-  - **δₜₕ (Throttle)**: 0.5
-  - **δₐ (Aileron)**: ±21.5° (maximum deflection, alternating directions)
-  - **δₑ (Elevator)**: 0°
-  - **δᵣ (Rudder)**: 0°
-- **Expected Outcome**:
-  - The aircraft should exhibit roll response proportional to the input.
-  - Upon returning δₐ to 0°, the aircraft should stabilize and return to level flight.
-
-### 2.2 Pitch Stability (Elevator Input)
-- **Test Conditions**:
-  - **δₜₕ (Throttle)**: 0.5
-  - **δₐ (Aileron)**: 0°
-  - **δₑ (Elevator)**: ±30° (maximum deflection, alternating directions)
-  - **δᵣ (Rudder)**: 0°
-- **Expected Outcome**:
-  - The aircraft should pitch up or down based on the elevator input.
-  - Upon returning δₑ to 0°, the aircraft should stabilize to a steady state.
-
-### 2.3 Yaw Stability (Rudder Input)
-- **Test Conditions**:
-  - **δₜₕ (Throttle)**: 0.5
-  - **δₐ (Aileron)**: 0°
-  - **δₑ (Elevator)**: 0°
-  - **δᵣ (Rudder)**: ±25° (maximum deflection, alternating directions)
-- **Expected Outcome**:
-  - The aircraft should yaw to the right or left based on rudder input.
-  - Upon returning δᵣ to 0°, the aircraft should stabilize without significant oscillations.
-
-### 3. Tee lung ka Stability (Integrate 3 orientation axis)
-- ** Test Conditions**:
-  - **δₜₕ (Throttle)**: 0.5
-  - **δₐ (Aileron)**: ±0°
-  - **δₑ (Elevator)**: ±0°
-  - **δᵣ (Rudder)**: ±0° 
-- **Expected Outcome**:
-  - The aircraft should "Tee lung ka" when apply Throttle, Aileron, Elevator, Rudder.
-  - Upon returning δₐ, δₑ, δᵣ to 0°, the aircraft should stabilize without significant oscillations.
+This section outlines the stability validation process for the F-16 under specific control surface configurations. The tests assess the aircraft's stability when all control surfaces are neutral.Next section for validate of simulation (**Left** : our comparison, **Right** : Validation form https://www.collimator.ai/tutorials/simulating-a-nonlinear-f16-model)
 
 
+<p align="center">
+  <img src="image/validate_alpha.png" alt="Image of validate alpha>
+</p>
+
+<p align="center">
+  <img src="image/validate_angular_vel.png" alt="Image of validate angular velocity>
+</p>
+
+<p align="center">
+  <img src="image/validate_linear_vel.png" alt="Image of validate linear velocity>
+</p>
+
+<p align="center">
+  <img src="image/validate_navigation.png" alt="Image of validate navigation>
+</p>
+
+<p align="center">
+  <img src="image/validate_orientation.png" alt="Image of validate orientation>
+</p>
+
+<p align="left">
+The comparison data closely matches the validation data, with slight discrepancies in oscillation amplitude during the transient phase. The trends and steady-state behaviors align well, indicating the simulation is reasonably accurate. Further refinements could focus on reducing transient oscillations for closer alignment during dynamic changes.
+</p>
 
 ## Conclusion
-Simulating the motion of a F16 Fighting Falcon using Unity to model the dynamic of F16 Fighting Falcon and visualize the results graphically.Comparing Matlab may show some differences depending on the simulation methods and parameters used in each system. 
+Simulating the motion of a F16 Fighting Falcon using Unity to model the dynamic of F16 Fighting Falcon and visualize the results graphically. Comparing Matlab may show some differences depending on the simulation methods and parameters used in each system. 
 
-But now our simulation might lack realism at the moment due to the incomplete aerodynamic equations.
+**But now our simulation might lack realism at the moment due to the incomplete aerodynamic equations.**
 
 You can experiment adjusting the parameters of the Unity simulation.
 
