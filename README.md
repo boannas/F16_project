@@ -325,7 +325,13 @@ This section outlines the stability validation process for the F-16 under specif
 ## Conclusion
 Simulating the motion of a F16 Fighting Falcon using Unity to model the dynamic of F16 Fighting Falcon and visualize the results graphically.Comparing Matlab may show some differences depending on the simulation methods and parameters used in each system. 
 
+But now our simulation might lack realism at the moment due to the incomplete aerodynamic equations.
+
 You can experiment adjusting the parameters of the Unity simulation.
+
+## Future Plan
+- Improve GUI and visualization.
+- Improve equations to enhance realism.
 
 ## Acknowledgements
 This project is part of the coursework for FRA333 Robot Kinematics at the Institute of Field Robotics, King Mongkut’s University of Technology Thonburi. Special thanks to the course instructors for their guidance and support.
@@ -333,6 +339,23 @@ This project is part of the coursework for FRA333 Robot Kinematics at the Instit
 Feel free to explore, modify, and extend this project for educational and research purposes.
 
 ## References
+- Nguyen, L. T., Ogburn, M. E., Gilbert, W. P., Kibler, K. S., Brown, P. W., & Deal, P. L. (1979). Simulator study of stall/post
+stall characteristics of a fighter airplane with relaxed longitudinal static stability (NASA Technical Paper 1538). National 
+Aeronautics and Space Administration. Langley Research Center, Hampton, VA. 
+- Durham, Wayne. (2013). Aircraft Flight Dynamics and Control. John Wiley & Sons.
+- Stevens, B. L., Lewis, F. L., & Johnson, E. N. (2016). Aircraft Control and Simulation: Dynamics, Controls Design, and 
+Autonomous Systems (3rd ed.). John Wiley & Sons. 
+- STUDYAIRCRAFTS.COM. (N.D.). AIRCRAFT CONTROL SURFACES. STUDY AIRCRAFTS. RETRIEVED FROM 
+HTTPS://WWW.STUDYAIRCRAFTS.COM/AIRCRAFT-CONTROL-SURFACES 
+- NAE, C., NICOLIN, I., & NICOLIN, B. A. (2022). MILITARY AIRCRAFT FLIGHT CONTROL. IN AERONAUTICS - NEW ADVANCES (PP. 1-14). 
+INTECHOPEN. DOI: 10.5772/INTECHOPEN.105491.
+- COLLIMATOR.AI. (N.D.). SIMULATING A NONLINEAR F16 MODEL. RETRIEVED FROM 
+HTTPS://WWW.COLLIMATOR.AI/TUTORIALS/SIMULATING-A-NONLINEAR-F16-MODEL 
+- MICHAEL V. COOK BSC, MSC, CENG, FRAES, CMATH, FIMA (2013). FLIGHT DYNAMICS PRINCIPLES A LINEAR SYSTEMS APPROACH TO 
+AIRCRAFT STABILITY AND CONTROL 
+- ALLERTON, D., MOIR, I. (SERIES ED.), & OTHERS. (1ST ED.). PRINCIPLES OF FLIGHT SIMULATION. AIAA EDUCATION.
+- GABERNET, A. F. (2007). CONTROLLERS FOR SYSTEMS WITH BOUNDED ACTUATORS: MODELING AND CONTROL OF AN F-16 AIRCRAFT 
+(MASTER’S THESIS, UNIVERSITY OF CALIFORNIA, IRVINE). 
 
 
 ## Collabulator
