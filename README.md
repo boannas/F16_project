@@ -7,9 +7,19 @@ This project simulates the dynamics of a F16 Fighting Falcon
 2. [Getting started](#getting-started)
 3. [User guide](#user-guide)
 4. [Methodology](#methodology)
+    - [Navigation Equation](#1-navigation-equation)
+    - [Kinematic Equation](#2-kinematic-equation)
+    - [Force Equation](#3-force-equation)
+    - [Moment Equation](#4-moment-equation)
+    - [Aerodynamics Equation](#5-aerodynamics)
+    - [Force Equation New State](#6-force-equation-new-state)
+    - [Linear Velocity Equation](#7-linear-velocity)
+    - [Dynamic Pressure Equation](#8-dynamic-pressure)
+    - [Coefficient Equation](#9-coefficient)
 5. [Validation](#validation)
 6. [Conclusion](#conclusion)
 7. [References](#references)
+8. [Acknowledgements](#acknowledgements)
 
 
 ## Overview
@@ -314,6 +324,11 @@ Summarize why Out doesn't look like validate graph ==== Aerodynamics !!!
 
 And validate web is dead!!!!!!!!!.
 
+
+## Acknowledgements
+This project is part of the coursework for FRA333 Robot Kinematics at the Institute of Field Robotics, King Mongkut’s University of Technology Thonburi. Special thanks to the course instructors for their guidance and support.
+
+Feel free to explore, modify, and extend this project for educational and research purposes.
 
 ## References
 
