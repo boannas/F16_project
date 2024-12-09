@@ -104,12 +104,13 @@ You can config parameter of F16.
 
 
 #### Dynamic Pressure
-$$
+<p align="center">
 𝑞̄ = ½ ρ 𝑉ₜ²
-$$
+</p>
+
 where:
-- ρ is air density,
-- 𝑉ₜ is total velocity.
+- **ρ** is air density,
+- **𝑉ₜ** is total velocity.
 
 #### Kinematic Equation
 <p align="center">
