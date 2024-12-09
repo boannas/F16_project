@@ -19,11 +19,16 @@ This project simulates the dynamics of a F16 Fighting Falcon
 - **Can fly :** and go away
 
 ## Getting started
+Can use only on window OS.
 ### Installation
 Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/boannas/F16_project.git
-cd F16_project
+cd F16_project/Simulation
+```
+### Open Simulation
+```bash
+F-16.exe
 ```
 
 ## User guide
