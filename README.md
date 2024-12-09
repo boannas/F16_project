@@ -118,7 +118,7 @@ Where:
 ![Image of Force equation](image/Force%20equation.png)
 
 #### Navigation Equation
-![Image of navigation equation](image/Navigation%20equation.png)
+![Image of navigation equation](image/Navigation_equation.png)
 Where:
 - **ẋₑ**: The rate of change of position along the X-axis of the aircraft relative to the Earth frame.
 - **ẏₑ**: The rate of change of position along the Y-axis of the aircraft relative to the Earth frame.
