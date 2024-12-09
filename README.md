@@ -18,9 +18,8 @@ This project simulates the dynamics of a F16 Fighting Falcon
     - [Coefficient Equation](#9-coefficient)
 5. [Validation](#validation)
 6. [Conclusion](#conclusion)
-7. [References](#references)
-8. [Acknowledgements](#acknowledgements)
-
+7. [Acknowledgements](#acknowledgements)
+8. [References](#references)
 
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
