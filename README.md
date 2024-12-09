@@ -103,48 +103,25 @@ You can config parameter of F16.
 | 𝜌           | Air density (at sea level)     | 1.225     | kg/m³         |
 
 
-#### Dynamic Pressure
-<p align="center">
-𝑞̄ = ½ ρ 𝑉ₜ²
-</p>
-
-where:
-- **ρ** is air density,
-- **𝑉ₜ** is total velocity.
-
-#### Kinematic Equation
-<p align="center">
-  <img src="image/Kinematic_equation.png" alt="Image of Kinematic Equation">
-</p>
-
-
-Where:
-- **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
-- **(P, Q, R)**: Roll, Pitch, Yaw angular rates (in radians per second)
-
-
-#### Force Equation
-<p align="center">
-  <img src="image/Force_equation.png" alt="Image of Force equation">
-</p>
-
-#### Navigation Equation
+#### 1. Navigation Equation
 <p align="center">
   <img src="image/Navigation_equation.png" alt="Image of Navigation Equation">
 </p>
+
+The transformation of the rotation matrix from the body frame of the F-16 aircraft to the Earth frame can be expressed using roll, pitch, and yaw (Rz Ry Rx).
 
 Where:
 - **ẋₑ**: The rate of change of position along the X-axis of the aircraft relative to the Earth frame.
 - **ẏₑ**: The rate of change of position along the Y-axis of the aircraft relative to the Earth frame.
 - **ż**: The rate of change of position along the Z-axis of the aircraft relative to the Earth frame.
 
-The transformation of the rotation matrix from the body frame of the F-16 aircraft to the Earth frame can be expressed using roll, pitch, and yaw (Rz Ry Rx).
-
 #### 2. Kinematic Equation
 <p align="center">
   <img src="image/f16_dynamics.png" alt="Image of f16_dynamics">
   <img src="image/Kinematic_equation.png" alt="Image of Kinematic Equation">
 </p>
+
+This equation describes the relationship between angular velocities in the body-fixed frame (P, Q, R) and the rates of change of the Euler angles (ϕ, θ, ψ).
 
 
 Where:
@@ -158,11 +135,15 @@ Where:
 </p>
 
 
+This equation represents the translational dynamics of a rigid body in a body-fixed coordinate system.
 
 #### 4. Moment Equation
 <p align="center">
   <img src="image/Moment_equation.png" alt="Image of Moment Equation">
 </p>
+
+
+This set of equations represents the rotational dynamics of a rigid body in terms of its angular momentum and moments of inertia. These equations are derived from Euler's equations of motion for a rigid body.
 
 where:
 - **𝐼ₓₓ**: Moment of inertia around the X-axis (12874.847366 kg·m²)
@@ -176,6 +157,9 @@ where:
 <p align="center">
   <img src="image/Aerodynamics.png" alt="Image of Aerodynamics equation">
 </p>
+
+This set of equations describes the aerodynamic forces(𝐹ₓ,𝐹ᵧ,𝐹𝓏) and moments(L,M,N) acting on a body, such as an aircraft, in terms of aerodynamic coefficients. These forces and moments depend on several parameters like angle of attack(α), sideslip angle(β), control surface deflections(δₑ,δₐ,δᵣ), and the Mach number.
+
 where:
 - **q̄**: Dynamic pressure (Pa)
 - **S**: Wing reference area (m²)
@@ -186,6 +170,8 @@ where:
 <p align="center">
   <img src="image/Force_equation_new_state.png" alt="Image of Force equation new state equation">
 </p>
+
+This set of equations appears to describe the translational and angular dynamics of a body in three dimensions.
 
 where:
 - **α**: Angle of attack (alpha) (องศา)
@@ -224,9 +210,15 @@ $$
 W = V_T \sin\alpha \cos\beta
 $$
 
-#### 8. Dynamic Pressure 
+This set of equations defines the relationship between the total velocity(𝑉ₜ) of a moving body and its velocity components in a 3D coordinate system. It also introduces two important aerodynamic angles: angle of attack(α), sideslip angle(β). These equations are widely used in flight mechanics and aerodynamics.
 
+#### 8. Dynamic Pressure 
+<p align="center">
 𝑞̄ = ½ ρ 𝑉ₜ²
+</p>
+
+
+This equation represents dynamic pressure (q), a key parameter in fluid dynamics and aerodynamics:
 
 where:
 - ρ is air density,
@@ -236,6 +228,9 @@ where:
 <p align="center">
   <img src="image/Coefficient.png" alt="Image of Coefficient">
 </p>
+
+This set of equations defines the aerodynamic coefficients that determine the aerodynamic forces and moments acting on an aircraft or similar body. These coefficients describe how the aerodynamic forces and moments depend on the angles of attack(α), sideslip angle(β), control surface deflections(δₑ,δₐ,δᵣ), and body rates(p,q,r)
+
 where:
 - **𝐶ₓ**: Non-dimensional \(x\)-body-axis force coefficient
 
