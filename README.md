@@ -218,7 +218,7 @@ This set of equations defines the relationship between the total velocity(𝑉�
 </p>
 
 
-This equation represents dynamic pressure (q), a key parameter in fluid dynamics and aerodynamics:
+This equation represents dynamic pressure (q), a key parameter in fluid dynamics and aerodynamic.
 
 where:
 - ρ is air density,
