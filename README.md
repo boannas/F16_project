@@ -1,5 +1,5 @@
 # F16 Fighting Falcon SIMULATION
-This project aims to visualize a F16 Fighting Falcon motion by adjusting the parameter of F16 Fighting Falcon (Thrust,Rudder,Elevator,Ailerons) in Unity and Matlab.
+This project aims to visualize a F16 Fighting Falcon motion by adjusting the control surface of F16 Fighting Falcon (Thrust,Rudder,Elevator,Ailerons) in Unity and Matlab.
 
 #### This project is a part of FRA333 Robot Kinematics @ Institute of Field Robotics, King Mongkut’s University of Technology Thonburi
 
