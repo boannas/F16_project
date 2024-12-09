@@ -107,9 +107,7 @@ where:
 - 𝑉ₜ is total velocity.
 
 #### Kinematic Equation
-[ ϕ̇ ]   =   [ 1      sin(ϕ)tan(θ)    cos(ϕ)tan(θ) ] [ P ]
-[ θ̇ ]       [ 0          cos(ϕ)          -sin(ϕ)  ] [ Q ]
-[ ψ̇ ]       [ 0   sin(ϕ)/cos(θ)    cos(ϕ)/cos(θ)  ] [ R ]
+![Image of kinematic equation](image/Kinematic%20Equation.png)
 
 Where:
 - **(ϕ, θ, ψ)**: Roll, Pitch, Yaw (in radians)
