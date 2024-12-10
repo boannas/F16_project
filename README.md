@@ -108,7 +108,7 @@ You can configure the parameters of the F-16.
 
 Note : Fixed quantities are in an inertial state and can be adjusted.
 
-- **δₜₕ**: Throttle angle (Minimum 0.0°, Maximum 1.0°) 
+- **δₜₕ**: Throttle angle (Minimum 0.0, Maximum 1.0) 
 
 - **δₑ**: Elevator angle (Minimum -25.0°, Maximum 25.0°)
 
@@ -160,9 +160,9 @@ This equation represents the translational dynamics of a rigid body in a body-fi
 This set of equations represents the rotational dynamics of a rigid body in terms of its angular momentum and moments of inertia. These equations are derived from Euler's equations of motion for a rigid body.
 
 where:
-- **𝐼ₓₓ**: Moment of inertia around the X-axis (12874.847366 kg·m²)
-- **𝐼ᵧᵧ**: Moment of inertia around the Y-axis (75673.623725 kg·m²)
-- **𝐼𝓏𝓏**: Moment of inertia around the Z-axis (85552.113395 kg·m²)
+- **𝐼ₓₓ**: Moment of inertia around the X-axis (kg·m²)
+- **𝐼ᵧᵧ**: Moment of inertia around the Y-axis (kg·m²)
+- **𝐼𝓏𝓏**: Moment of inertia around the Z-axis (kg·m²)
 - **𝑃, 𝑄, 𝑅**: Roll, Pitch, Yaw angular rates (rad/s)
 - **𝐿, 𝑀, 𝑁**: External moments (Nm)
 - **Γ**: Moments of inertia in the system (kg²·m⁴)
@@ -288,9 +288,8 @@ This section outlines the stability validation process for the F-16 under specif
   <img src="image/validate_orientation.png" alt="Image of validate orientation>
 </p>
 
-<p align="left">
+
 The comparison data closely matches the validation data, with slight discrepancies in oscillation amplitude during the transient phase. The trends and steady-state behaviors align well, indicating the simulation is reasonably accurate. Further refinements could focus on reducing transient oscillations for closer alignment during dynamic changes.
-</p>
 
 ## Conclusion
 This project simulates the motion of an F-16 Fighting Falcon using Unity to model its dynamics and visualize the results graphically. Comparisons with MATLAB may reveal differences depending on the simulation methods and parameters used in each system. 
@@ -329,7 +328,7 @@ AIRCRAFT STABILITY AND CONTROL
 
 
 ## Collabulator
-- **Napat Aiamwiratchai**
+- **Napat Aeimwiratchai**
 - **Tadtawan Chaloempornmongkol**
 - **Asama Wankra**
 - **Aittikit Kitcharoennon**
