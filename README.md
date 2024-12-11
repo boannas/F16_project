@@ -4,6 +4,8 @@ This project aims to visualize the motion of an F-16 Fighting Falcon by adjustin
     
 [![](https://markdown-videos-api.jorgenkh.no/youtube/99ExBoF8pLk)](https://www.youtube.com/watch?v=99ExBoF8pLk)
 
+<video controls src="F-16_SimulationEX.mp4" title="Title"></video>
+
 
 #### This project is a part of FRA333 Robot Kinematics @ Institute of Field Robotics, King Mongkut’s University of Technology Thonburi
 
@@ -31,7 +33,7 @@ This project aims to visualize the motion of an F-16 Fighting Falcon by adjustin
 8. [Acknowledgements](#acknowledgements)
 9. [References](#references)
 
-<video controls src="F-16_SimulationEX.mp4" title="Title"></video>
+
 
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
