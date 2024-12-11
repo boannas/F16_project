@@ -274,7 +274,19 @@ where:
 ![C_n](image/cn.png)
 
 ## Validation 
-This section outlines the stability validation process for the F-16 under specific control surface configurations. The tests assess the aircraft's stability when all control surfaces are neutral.The next section validates the simulation (**Left**: our comparison, **Right**: Validation from Collimator). 
+This section outlines the stability validation process for the F-16 under specific control surface configurations. The tests assess the aircraft's stability when all control surfaces are neutral.The next section validates the simulation (**Left**: our comparison, **Right**: Validation from Collimator). ง
+<p align="center">
+  <img src="image/validate_alpha.png" alt="Image of validate alpha>
+
+  <img src="image/validate_angular_vel.png" alt="Image of validate angular velocity>
+
+  <img src="image/validate_linear_vel.png" alt="Image of validate linear velocity>
+
+  <img src="image/validate_navigation.png" alt="Image of validate navigation>
+
+  <img src="image/validate_orientation.png" alt="Image of validate orientation>
+</p>
+
 
 
 
