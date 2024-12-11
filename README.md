@@ -1,6 +1,9 @@
 # F-16 Fighting Falcon Simulatio
 This project aims to visualize the motion of an F-16 Fighting Falcon by adjusting its control surfaces (thrust, rudder, elevator, ailerons) using Unity and MATLAB.
 
+[![](https://markdown-videos-api.jorgenkh.no/youtube/99ExBoF8pLk)](https://www.youtube.com/watch?v=99ExBoF8pLk)
+
+
 #### This project is a part of FRA333 Robot Kinematics @ Institute of Field Robotics, King Mongkut’s University of Technology Thonburi
 
 ## Table of contents
@@ -27,7 +30,6 @@ This project aims to visualize the motion of an F-16 Fighting Falcon by adjustin
 8. [Acknowledgements](#acknowledgements)
 9. [References](#references)
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/99ExBoF8pLk)](https://www.youtube.com/watch?v=99ExBoF8pLk)
 
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
