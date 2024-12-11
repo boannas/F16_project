@@ -26,8 +26,8 @@ This project aims to visualize the motion of an F-16 Fighting Falcon by adjustin
 7. [Futureplan](#future-plan)
 8. [Acknowledgements](#acknowledgements)
 9. [References](#references)
-<video controls src="F-16 2567-12-06 03-18-53.mp4" title="Title"></video>
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=99ExBoF8pLk))
+
+[![Video Title](image/simulation.png)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=99ExBoF8pLk))
 
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
