@@ -31,6 +31,8 @@ This project aims to visualize the motion of an F-16 Fighting Falcon by adjustin
 8. [Acknowledgements](#acknowledgements)
 9. [References](#references)
 
+<video controls src="F-16_SimulationEX.mp4" title="Title"></video>
+
 ## Overview
 ![Image of system diagram](image/system_diagram.png)
 
